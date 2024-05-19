@@ -15,13 +15,13 @@ const App = () => {
     //     return <h1>Hello mobile</h1>
     // }
 
-    if (__ENV__ === 'development') {
-        return <h1>Hello development</h1>
-    }
-
-    if (__ENV__ === 'production') {
-        return <h1>Hello production</h1>
-    }
+    // if (__ENV__ === 'development') {
+    //     return <h1>Hello development</h1>
+    // }
+    //
+    // if (__ENV__ === 'production') {
+    //     return <h1>Hello production</h1>
+    // }
 
     return (
         <>
