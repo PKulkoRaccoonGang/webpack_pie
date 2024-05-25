@@ -25,7 +25,7 @@ const App = () => {
 
     return (
         <>
-            <h1>PLATFORM: {__PLATFORM__}</h1>
+            <h1 data-testid="PETER">PLATFORM: {__PLATFORM__}</h1>
             <div>
                 <img src={imagePng} alt="img" width={400} height={400} />
                 <DiamondSvg width={400} height={400} />
@@ -33,7 +33,7 @@ const App = () => {
             <Link to="/about">About</Link>
             <br />
             <Link to="/shop">Shop</Link>
-            <h1>Hello world</h1>
+            <h1>Hello world890</h1>
 
             <Outlet />
         </>
