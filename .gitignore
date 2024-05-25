@@ -1,8 +1,18 @@
-### Example user template template
-### Example user template
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
 
-# IntelliJ project files
-.idea
-node_modules
-build
-dist
+# React
+/.cache/
+/public/
+/build/
+/.env
+
+# IDE
+.vscode/
+.idea/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
